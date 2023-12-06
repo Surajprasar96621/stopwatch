@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+}
+
+#container {
+    text-align: center;
+    margin: 50px auto;
+    width: 300px;
+}
+
+#display {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
